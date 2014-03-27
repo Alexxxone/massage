@@ -1,0 +1,21 @@
+<template name="parallaxOne">
+    <div id="header" class="row-fluid" style="height: 560px;">
+    <aside id="portfolio-cta" class="seperator-type parallax-type">
+        <!-- Parallax -->
+        <div class="parallax one" style="background-image: url('/img/headerBg1.jpg'); background-position: 50% -400px;"></div>
+        <!-- End Parallax -->
+        <div class="container" style="padding: 20px 50px 380px 0;background-color: rgba(121, 121, 121, 0.19);">
+            <div class="span1 pull-right"></div>
+            <div class="col-lg-8">
+                {{yield 'menu'}}
+            </div>
+            <div class="col-lg-2 pull-right social">
+                <a href="https://vk.com/club65795819"  target="_blank"> <img src="/img/vk.png" title="Наша Группа на VK" /> </a>
+                <a href="javascript:;" > <img src="/img/mail2.png" title="Напишете нам!" /> </a>
+            </div>
+
+        </div>
+
+    </aside>
+    </div>
+</template>

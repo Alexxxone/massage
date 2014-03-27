@@ -1,0 +1,15 @@
+<template name="layout">
+    <head>
+      <title>Массаж</title>
+    </head>
+    <body>
+       {{yield 'header'}}
+       {{>parallaxOne}}
+       {{yield}}
+       {{>parallaxTwo}}
+       <hr>
+       {{>pricing}}
+       <hr>
+       {{yield 'footer'}}
+    </body>
+</template>
