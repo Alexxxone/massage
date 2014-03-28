@@ -9,9 +9,20 @@ Template.body.rendered = function(){
 //        onlyWidgets: true
 //    });
 //    VK.Widgets.Like('vk_like');
+
+
+    VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "400", color1: 'F9F6F1', color2: '369388', color3: '80C9A3'}, 65795819);
+    VK.api('video.get',{videos: '-65795819,-65795819_167447540'},function(data) {
+        if (data.response) {
+            console.log(data.response);
+            // data.response is object
+        }else{
+            console.log(data);
+        }
+    });
     $('.scroll_to').click(function(){
         $.scrollTo($(this).attr('name'),500);
-    })
+    });
     $( '.parallax.one' ).parallax("50%", 0.6);
     $( '.parallax.two' ).parallax("50%", 0.5);
     $('.img-circle').mouseenter(function(e){

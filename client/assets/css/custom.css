@@ -197,6 +197,11 @@ body div.navbar.navbar-inverse{
     background-color: #80C9A3;
 
 }
+#video_overlay{
+    opacity:1;
+    transition: .8s;
+}
+
 
 
 
