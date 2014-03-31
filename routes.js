@@ -98,7 +98,7 @@ Before.load = function() {
 String.prototype.toSlug = function() {
     return this
         .toLowerCase()
-        .replace(/ /g,'_')
-        .replace(/[^\w]+/g,'')
+        .replace(/[^а-яА-ЯёЁ]+/g,'_')
+        .replace(/_$/,'')
         ;
 };

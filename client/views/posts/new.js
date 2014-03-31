@@ -9,7 +9,7 @@ Template.newPost.events({
     e.preventDefault();
     var body = tinyMCE.activeEditor.getContent({format : 'raw'});
     var title = $('.post_title').val();
-    var slug = $('.post_slug').val();
+    var slug = title.toSlug();
     console.log(slug);
     if(title.length >= 5 && body.length >=10 ){
             Posts.insert({
