@@ -2,15 +2,26 @@
 Template.parallaxOne.rendered = function(){
 
 
-    Meteor.setTimeout(function(){
+   var id = Meteor.setInterval(function(){
         var video = document.getElementById("video");
+        if(video){
+            video.loadeddata =
+                video.currentTime=80,
+                video.play(),
+            Meteor.clearInterval(id);
+        }
+    }, 500);
 
-        video.currentTime=80;
-        video.play();
-    }, 800);
+//    Meteor.setTimeout(function(){
+//        var video = document.getElementById("video");
+//        video.loadeddata =
+//            video.currentTime=80,
+//            video.play(),
+//            console.log('asdasd');
+//    }, 1000);
     Meteor.setTimeout(function(){
         $('#video_overlay').css('opacity','0.4');
-    }, 200);
+    }, 300);
 
 
 };

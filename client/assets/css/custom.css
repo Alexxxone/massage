@@ -260,4 +260,9 @@ body div.navbar.navbar-inverse{
     border-color: rgba(12, 162, 137, 0.98);
 }
 
+#vk_groups{
+    position: absolute;
+    top: 15%;
+    right: 6%;
+}
 

@@ -22,7 +22,7 @@ Template.footer.rendered = function(){
     };
     $( '.google-maps' ).gmap3(options);
 };
-Template.footer.events({
+Template.footerBottom.events({
     'click .show_contact': function(){
         if ($('#contactModal').length){
             $('#contactModal').modal('show');

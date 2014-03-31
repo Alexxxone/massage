@@ -23,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="108" selection-end="124" vertical-scroll-proportion="0.03821656" vertical-offset="0" max-vertical-offset="942">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/posts/posts.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,28 +37,53 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/assets/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="4842">
+            <state line="265" column="14" selection-start="4987" selection-end="4987" vertical-scroll-proportion="0.0" vertical-offset="3887" max-vertical-offset="4932">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postsFooter.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/footer/postsFooter.html">
+      <file leaf-file-name="footer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/footer/footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="324">
+            <state line="24" column="53" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/posts/show.html">
+      <file leaf-file-name="footerBottom.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/footer/footerBottom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="52" selection-start="71" selection-end="96" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="0" column="28" selection-start="16" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="53" selection-start="108" selection-end="124" vertical-scroll-proportion="0.03925845" vertical-offset="0" max-vertical-offset="917">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parallaxOne.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/parts/parallaxOne.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="30" selection-start="60" selection-end="60" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="172" selection-end="172" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="306">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +92,24 @@
         <entry file="file://$PROJECT_DIR$/client/views/parts/header2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="64" selection-start="963" selection-end="963" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1944">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parallaxOne.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/parts/parallaxOne.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -92,16 +126,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/account.js" />
-        <option value="$PROJECT_DIR$/client/views/parts/parallaxOne.html" />
         <option value="$PROJECT_DIR$/client/views/parts/prices.html" />
         <option value="$PROJECT_DIR$/server/option.js" />
         <option value="$PROJECT_DIR$/server/email.js" />
         <option value="$PROJECT_DIR$/client/helpers/account.js" />
         <option value="$PROJECT_DIR$/client/views/parts/parallaxTwo.html" />
-        <option value="$PROJECT_DIR$/client/views/parts/parallaxOne.js" />
-        <option value="$PROJECT_DIR$/client/views/footer/footer.js" />
         <option value="$PROJECT_DIR$/client/views/parts/contact.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/client/views/menu/left_menu.js" />
         <option value="$PROJECT_DIR$/server/collectionsRules.js" />
         <option value="$PROJECT_DIR$/client/assets/css/left_menu.css" />
@@ -111,20 +141,24 @@
         <option value="$PROJECT_DIR$/client/views/footer/bottom.html" />
         <option value="$PROJECT_DIR$/client/views/menu/menu.html" />
         <option value="$PROJECT_DIR$/client/views/footer/futterBottom.html" />
-        <option value="$PROJECT_DIR$/client/views/body/body.html" />
         <option value="$PROJECT_DIR$/client/helpers/handlebars.js" />
         <option value="$PROJECT_DIR$/client/views/posts/posts.js" />
-        <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/client/views/sessions/login.html" />
         <option value="$PROJECT_DIR$/client/views/posts/new.js" />
-        <option value="$PROJECT_DIR$/routes.js" />
-        <option value="$PROJECT_DIR$/client/assets/css/custom.css" />
-        <option value="$PROJECT_DIR$/client/views/footer/postsFooter.html" />
         <option value="$PROJECT_DIR$/client/views/menu/left_menu.html" />
         <option value="$PROJECT_DIR$/client/views/parts/header2.html" />
         <option value="$PROJECT_DIR$/client/views/posts/show.html" />
         <option value="$PROJECT_DIR$/client/views/posts/posts.html" />
         <option value="$PROJECT_DIR$/client/views/posts/new.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/client/views/body/body.html" />
+        <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/client/views/parts/parallaxOne.js" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/client/views/footer/postsFooter.html" />
+        <option value="$PROJECT_DIR$/client/views/parts/parallaxOne.html" />
+        <option value="$PROJECT_DIR$/client/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/client/views/footer/footer.js" />
       </list>
     </option>
   </component>
@@ -581,19 +615,9 @@
         <state line="0" column="50" selection-start="32" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.57681435" vertical-offset="0" max-vertical-offset="1061" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/collectionsRules.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="47" selection-start="141" selection-end="141" vertical-scroll-proportion="0.06786051" vertical-offset="0" max-vertical-offset="1061" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="198" selection-end="198" vertical-scroll-proportion="0.15667312" vertical-offset="0" max-vertical-offset="1034" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/menu/menu.html">
@@ -611,13 +635,6 @@
         <state line="5" column="51" selection-start="100" selection-end="155" vertical-scroll-proportion="-0.32301742" vertical-offset="424" max-vertical-offset="1458" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/footer/footerBottom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/posts/new.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="423" selection-end="423" vertical-scroll-proportion="0.20732984" vertical-offset="0" max-vertical-offset="955">
@@ -632,48 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/body/body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="766" selection-end="776" vertical-scroll-proportion="0.29094827" vertical-offset="0" max-vertical-offset="928">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/helpers/handlebars.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.62198955" vertical-offset="0" max-vertical-offset="955">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/assets/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="4842">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/footer/postsFooter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="2" selection-start="2333" selection-end="2333" vertical-scroll-proportion="1.9413613" vertical-offset="0" max-vertical-offset="1962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/parts/parallaxOne.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="554" selection-end="554" vertical-scroll-proportion="0.15517241" vertical-offset="0" max-vertical-offset="928">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#aside#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#aside#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,15 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="64" selection-start="963" selection-end="963" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="594">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/posts/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="52" selection-start="71" selection-end="96" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +688,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="172" selection-end="172" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/body/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/parts/parallaxOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/posts/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="71" selection-end="96" vertical-scroll-proportion="0.038793102" vertical-offset="0" max-vertical-offset="928">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/parts/parallaxOne.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="60" selection-end="60" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="14" selection-start="4987" selection-end="4987" vertical-scroll-proportion="0.0" vertical-offset="3887" max-vertical-offset="4932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/footer/postsFooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="149" selection-end="149" vertical-scroll-proportion="0.07973422" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/footer/footerBottom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="16" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="53" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="108" selection-end="124" vertical-scroll-proportion="0.03821656" vertical-offset="0" max-vertical-offset="942">
+        <state line="2" column="53" selection-start="108" selection-end="124" vertical-scroll-proportion="0.03925845" vertical-offset="0" max-vertical-offset="917">
           <folding />
         </state>
       </provider>
