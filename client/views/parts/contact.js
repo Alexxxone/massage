@@ -5,12 +5,10 @@ Template.contact.events({
     'click .sendContact': function(e,tmpl){
         sendMessage(e,tmpl);
    }
-})
+});
 Template.contact.rendered = function(){
     $('#contactModal').modal('show');
-}
-
-
+};
 
 
 function sendMessage(e,tmpl){
@@ -19,9 +17,9 @@ function sendMessage(e,tmpl){
     name = tmpl.find('#contactFrom').value;
     if(name.length >2 && text.length >10){
         Meteor.call('sendEmail',
-            'Aleksandr.Vladimirovich.Khomenko@gmail.com',
-            'bulletone@mail.ru',
-            'Sender: '+name,
+            'nemys.gvv@rambler.ru',
+            'massage_zp@mail.ru',
+            'Отправитель: '+name,
             text
         );
         tmpl.find('#textArea').value = '';

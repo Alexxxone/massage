@@ -3,13 +3,10 @@
       <title>Массаж</title>
     </head>
     <body>
-       {{yield 'header'}}
-       {{>parallaxOne}}
+       {{#if currentUser}}
+            {{>left_menu}}
+       {{/if}}
        {{yield}}
-       {{>parallaxTwo}}
-       <hr>
-       {{>pricing}}
-       <hr>
        {{yield 'footer'}}
     </body>
 </template>

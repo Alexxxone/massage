@@ -1,1 +1,1 @@
-process.env.MAIL_URL =  "smtp://bulletone@mail.ru:kateryna88@smtp.mail.ru:465"
+process.env.MAIL_URL =  "smtp://massage_zp@mail.ru:xa5nghxwo982@smtp.mail.ru:465";

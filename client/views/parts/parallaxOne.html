@@ -1,0 +1,35 @@
+<template name="parallaxOne">
+    <div id="header" class="row-fluid" style="height: 600px;">
+        <aside id="portfolio-cta" class="seperator-type parallax-type">
+            <!-- Parallax -->
+            <div class="col-lg-2 pull-right social">
+                <a href="https://vk.com/club65795819" target="_blank"> <img src="/img/vk.png" title="Наша Группа в VK"/> </a>
+                <a href="javascript:;" class="show_contact"> <img src="/img/mail2.png" title="Напишете нам!"/> </a>
+            </div>
+            <div class="parallax one" style="background-image: url('/img/headerBg1.jpg'); background-position: 50% -400px;"></div>
+            <!-- End Parallax -->
+            <div class="container" style="padding: 20px">
+                <div class="video_box">
+                    <div  id="video_overlayBg"></div>
+                    <div id="video_overlayImg"></div>
+                    <video width="967" height="545" id="video"  autoplay="autoplay" loop  muted >
+                        <source src="/videos/movie.mp4" type="video/mp4"/>
+                        <source src="/videos/movie.webm" type="video/webm"  webView.mediaPlaybackRequiresUserAction = NO;/>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="row video_boxInner">
+                    <div class="col-lg-8 col-lg-offset-1 topMenu">
+                        {{yield 'menu'}}
+                    </div>
+                    <div class="col-lg-3 pull-right">
+                        <div id="vk_groups"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+    </div>
+</template>

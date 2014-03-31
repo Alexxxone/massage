@@ -1,0 +1,140 @@
+/* General styles for all menus */
+
+.cbp-spmenu {
+    background-color: white;
+    position: fixed;
+    box-shadow: 3px 0px 3px lightgray;
+}
+
+.cbp-spmenu h3 {
+    padding: 5px 0;
+    color: white;
+    font-size: 1.9em;
+    margin: 0;
+    font-weight: 300;
+    background: rgba(59, 170, 152, 0.98);
+}
+.cbp-spmenu h3 i{
+    cursor: pointer;
+}
+
+.cbp-spmenu a {
+    display: block;
+
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.cbp-spmenu .drop_menu a{
+    padding-left: 50px;
+    font-size: 1.3em;
+    color: black;
+    background: #009B74;
+}
+.cbp-spmenu a:active, .cbp-spmenu  a:hover {
+    text-decoration: none;
+    border-right: 3px solid #FF7F74;
+
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+    left: -243px;
+}
+
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    left: 0px;
+}
+
+
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.cbp-spmenu-push-toright {
+    left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+    left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+    .cbp-spmenu-horizontal {
+        font-size: 75%;
+        height: 110px;
+    }
+
+    .cbp-spmenu-top {
+        top: -110px;
+    }
+
+    .cbp-spmenu-bottom {
+        bottom: -110px;
+    }
+
+}
+
+@media screen and (max-height: 26.375em){
+
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 240px;
+    }
+
+    .cbp-spmenu-left,
+    .cbp-spmenu-push-toleft {
+        left: -190px;
+    }
+
+    .cbp-spmenu-right {
+        right: -190px;
+    }
+
+    .cbp-spmenu-push-toright {
+        left: 190px;
+    }
+}
+.drop_menu{
+    display: none;
+}
+#showLeft{
+    position: absolute;
+    top: 630px;
+    left: 30px;
+    color:rgba(59, 170, 152, 0.98);
+}

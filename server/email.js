@@ -5,7 +5,7 @@ Meteor.methods({
 
         Email.send({
             to: 'Aleksandr.Vladimirovich.Khomenko@gmail.com',
-            from: 'bulletone@mail.ru',
+            from: 'massage_zp@mail.ru',
             subject: subject,
             text: text
         });

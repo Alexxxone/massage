@@ -1,0 +1,8 @@
+<template name="footerBottom">
+    <span class="copyright"><a href="#">Privacy and legal notes</a> - © 2014 Vladimir Yanvar</span>
+    {{#if currentUser}}
+    <span style="margin-left: 45%;">Добро пожаловать {{currentUser.profile.name}}! <a href="/" class="btn btn-link sign_out">Выход</a></span>
+    {{else}}
+    <span style="margin-left: 45%;"><a href="{{pathFor 'login'}}">Вход Админа</a></span>
+    {{/if}}
+</template>

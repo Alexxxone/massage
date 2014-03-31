@@ -21,4 +21,18 @@ Template.footer.rendered = function(){
         }
     };
     $( '.google-maps' ).gmap3(options);
-}
+};
+Template.footer.events({
+    'click .show_contact': function(){
+        if ($('#contactModal').length){
+            $('#contactModal').modal('show');
+        }else{
+            frag = Meteor.render(Template.contact);
+            document.body.appendChild(frag);
+        }
+    },
+    'click .sign_out': function(){
+        Meteor.logout();
+
+    }
+});

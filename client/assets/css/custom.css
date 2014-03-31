@@ -2,7 +2,7 @@
     width: 200px;
     position: fixed;
     right: 250px;
-    bottom: 0;
+    bottom: 39px;
 }
 .text_boxes h2{
     color: #A77326;
@@ -20,6 +20,7 @@
     opacity: 1;
 }
 body{
+    padding-bottom: 10px;
     background: #F9F6F1;
     /*background-image: url('/img/header.jpg');*/
     /*background-position: 0 162px;*/
@@ -46,14 +47,15 @@ body div.navbar.navbar-inverse{
     color: navajowhite;
     text-decoration: none;
 }
+.topMenu{
+    margin-top:185px;
+}
 .top_menu li{
-    width: 150px;
     display: inline-block;
     list-style: none;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
+
     transition: .6s;
-    background-color: rgba(255, 245, 245, 0.29);
+
     border-bottom: 1px solid rgba(56, 136, 110, 0.84);
 
 }
@@ -62,6 +64,9 @@ body div.navbar.navbar-inverse{
 }
 .parallax-type {
     background-size: cover;
+}
+.video_boxInner{
+  padding-top: 70px;
 }
 .img-circle{
     -webkit-filter: grayscale(100%);
@@ -86,20 +91,19 @@ body div.navbar.navbar-inverse{
     background-repeat: no-repeat;
     height: 765px;
     width: 100%;
-    /*background-position: 0 700px;*/
     position: absolute;
     top:-340px;
     margin: 0 auto;
     overflow: hidden;
     padding: 0;
-
+    background-image: url('/img/header.jpg');
+    background-size: 100%;
     z-index: -10;
 }
 .parallax-type2{
     position: relative;
     height: 560px;
     width: 100%;
-    height: 560px;
     overflow: hidden;
 }
 .scroll_to_top{
@@ -197,11 +201,63 @@ body div.navbar.navbar-inverse{
     background-color: #80C9A3;
 
 }
-#video_overlay{
+#video_overlayImg{
     opacity:1;
     transition: .8s;
+    position: absolute;
+    z-index: 99;
+    background-image: url('/img/video_bg.png');
+    height: 545px;
+    width: 967px;
+}
+
+#video_overlayBg{
+    position: absolute;
+    background-color: rgba(2, 2, 2, 0.47);
+    z-index: 99;
+    height: 545px;
+    width: 967px;
+}
+.video_box{
+    position: absolute;
+    z-index: 0;
+    width: 64%;
+    height: 430px
 }
 
 
+/*404 NOT FOUND*/
+.error-404 {
+    background: url('/img/earth.jpg') no-repeat 100% 100% #000000;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+    color: white;
+}
+.error-404 .error-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.edit, .remove{
+    cursor: pointer;
+}
+.drop_menu{
+    display: none;
+}
+#canvasloader-container{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}
+
+#header2{
+    background-color: rgba(59, 170, 152, 0.98);
+    border-color: rgba(12, 162, 137, 0.98);
+}
 
 

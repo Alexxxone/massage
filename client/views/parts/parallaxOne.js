@@ -16,7 +16,6 @@ Template.parallaxOne.rendered = function(){
 };
 
 Template.parallaxOne.events({
-
     'click .show_contact': function(){
         if ($('#contactModal').length){
             $('#contactModal').modal('show');
